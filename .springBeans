@@ -7,7 +7,7 @@
 	</configSuffixes>
 	<enableImports><![CDATA[false]]></enableImports>
 	<configs>
-		<config>java:com.wisely.ch5_2_3.MainApplication</config>
+		<config>java:com.frank.MainApplication</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>
