@@ -1,9 +1,3 @@
-debug: true
-
 spring:
   profiles:
     active: dev
-frank:
-  word: Hello, prod World
-hello:
-  msg: qifang

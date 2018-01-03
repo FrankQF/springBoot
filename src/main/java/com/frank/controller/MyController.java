@@ -5,17 +5,22 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.frank.config.MyConfig;
-import com.frank.spring_boot.starter_hello.HelloService;
 @RestController
 public class MyController {
 	@Autowired
 	private MyConfig helloConfig;
-	@Autowired
-	private HelloService helloService;
+
 
     @RequestMapping("/hello")
     String hello() {
-    	System.out.println("abc"+helloService.getMsg());
         return "Hello World";
+    }
+    
+    @RequestMapping("/json")
+    public RspDTO json() {
+    	RspDTO rspDTO = new RspDTO();
+    	rspDTO.setName("qifang");
+    	rspDTO.setAge("18");
+    	return rspDTO;
     }
 }

@@ -40,12 +40,6 @@
 			<optional>true</optional>
 		</dependency>
 		
-		<dependency>
-			<groupId>com.frank</groupId>
-			<artifactId>spring-boot.starter-hello</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		
 	</dependencies>
 	
 	<build>
